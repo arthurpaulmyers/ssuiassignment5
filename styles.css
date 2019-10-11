@@ -1,0 +1,400 @@
+﻿/* latin */
+@font-face {
+  font-family: 'Rum Raisin';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rum Raisin'), local('RumRaisin-Regular'), url(https://fonts.gstatic.com/s/rumraisin/v7/nwpRtKu3Ih8D5avB4h2uF3iCyiI4aMI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #9F5A30;
+}
+
+/*#gooeybunbutton*/
+.activebutton {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    color: #9F5A30;
+    font-size: 12pt;
+    background-color: #FCEAC4;
+    border-color: #9F5A30;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    margin-left: 31%;
+    margin-right: 31%;
+    padding-top: 2.5%;
+    margin-bottom: 20%;
+    cursor: pointer;
+}
+
+/*#stickybunbutton,
+#crispybunbutton*/
+.inactivebutton {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 12pt;
+    background-color: #DDDDDD;
+    border-color: #9F5A30;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    margin-left: 31%;
+    margin-right: 31%;
+    padding-top: 2.5%;
+    margin-bottom: 20%;
+    cursor: no-drop;
+}
+
+/*Navbar section of home page*/
+
+#Navbar {
+    background-color: #EECE9F;
+}
+
+#navbar-grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 100px;
+}
+
+.nav {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    font-size: 18pt;
+    color: #474035;
+    padding-top: 25%;
+    padding-bottom: 2.5%;
+}
+
+#icon {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#iconimage {
+    max-height: 90px;
+    padding-top: 5px;
+    width: auto;
+}
+
+/*Specials section of home page*/
+
+#Specials {
+    background-color: #FCEAC4;
+    color: #474035;
+    height: 600px;
+    background-image: url(img/specialsbackground);
+}
+
+#Specials h2 {
+    text-align: right;
+    margin-top: 10%;
+}
+
+#specials-grid {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    text-align: center;
+    margin-left: 66%;
+}
+
+#specials-text-1 {
+    grid-column: 1 / span 2;
+    justify-self: right;
+    text-align: right;
+    max-width: auto;
+}
+
+#specials-text-2 {
+    grid-column: 1 / span 2;
+    justify-self: right;
+    text-align: right;
+    max-width: auto;
+}
+
+#learnmorebutton {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 30%;
+    padding-top: 2.5%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#specialhomecartbutton {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 0%;
+    padding-top: 2.5%;
+    padding-bottom: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-self: right;
+}
+
+/* Year Round Buns Section of home page*/
+
+#Year-Round {
+    background-color: #474035;
+}
+
+#Year-Round h2 {
+    color: #FCEAC4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#year-round-grid {
+    width: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 70% 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#gooeybunimg,
+#stickybunimg,
+#crispybunimg {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* About Us Section of main page*/
+
+#About-Us {
+    background-color: #FCEAC4;
+    color: #474035;
+    height: 600px;
+}
+
+#About-Us h2 {
+    text-align: right;
+}
+
+#About-Us h3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#about-us-grid {
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    grid-template-rows: 20% 80%;
+
+}
+
+#about-us-pic {
+    height: auto;
+    max-width: 415px;
+    background-size: cover;
+    padding-right: 0px;
+    margin-right: 15px;
+    border-width: 15px;
+    border-color: #474035;
+    border-style: solid;
+}
+
+#about-us-picture {
+    justify-self: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/*Footer section of all pages*/
+
+.footer {
+    background-color: #EECE9F;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: repeat(1, 80%);
+  text-align: center;
+}
+
+.footer-grid #footergrid-a {
+    font-family: 'Rum Raisin', 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color: #474035;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+.footer-grid #footergrid-b {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: #474035;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+.footer-grid #footergrid-c {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-size: 10pt;
+    color: #474035;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+/* Gooey Page */
+
+#gooey-page {
+    color: #FCEAC4;
+    background-color: #474035;
+    background-image: url(img/backgroundgooey.png);
+    font-family: 'Lato', 'Open Sans', sans-serif;
+}
+
+#gooey-page p {
+    font-size: 18pt;
+}
+
+#gooey-page-grid {
+    height: 800px;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: 25% 35% 20% 12% 8%;
+}
+
+#gooeybunleft {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    position: center;
+    margin-top: 40%;
+}
+
+#gooeybunheader {
+    padding-top: 10%;
+    text-align: right;
+    grid-column: 3 / span 2;
+    font-size: 48pt;
+}
+
+#gooeydesc {
+    padding-top: 10%;
+    grid-row-start: 2;
+    grid-column: 3 / span 2;
+    text-align: right;
+    justify-content: right;
+}
+
+#gooeyglazemenu {
+    grid-row-start: 3;
+    grid-column: 3 / span 1;
+    padding-right: 20%;
+    text-align: right;
+    font-size: 12pt;
+}
+
+#gooeynumbermenu {
+    grid-row-start: 3;
+    grid-column: 4 / span 1;
+    text-align: right;
+    font-size: 12pt;
+}
+
+#gooeycurrentcost {
+    grid-row-start: 4;
+    grid-column: 3 / span 1;
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+#gooeycartbutton {
+    grid-row-start: 4;
+    grid-column: 4 / span 1;
+    justify-content: right;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-top: 2.5%;
+}
+
+#gooeyspacer {
+    grid-row-start: 5;
+    grid-column: 1 / span 4;
+}
+
+select {
+    width: 100px;
+    border: 5px solid #474035;
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-size: 12pt;
+    text-align: right;
+    color: #474035;
+    background-color: #FCEAC4;
+}
