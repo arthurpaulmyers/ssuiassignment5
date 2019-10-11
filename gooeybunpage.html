@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="scripts.js" defer></script>
+</head>
+
+<body>
+    <div id="Navbar">
+            <div class="main">
+                <div id="navbar-grid">
+                    <a href ="index.html#Specials"class="nav">Specialty Buns</a>
+                    <a href="index.html#Year-Round" class="nav">Year-Round Buns</a>
+                    <a href="index.html#Navbar" class="nav" id="icon"><img src="img/bunbunicon.png" alt="Bun Bun Bake Shop Icon" id="iconimage"/></a>
+                    <a href="index.html#About-Us" class="nav">About Us</a>
+                    <a href="https://www.youtube.com/watch?v=37LS9mXgLsU" class="nav">Cart</a>
+                </div>
+            </div>
+        </div>
+
+    <div id="gooey-page">
+        <div class="main">
+            <div id="gooey-page-grid">
+                <div id="gooeybunleft">
+                    <img src="img/gooeybun.png" alt="Gooey Bun"/>
+                </div>
+                <h2 id="gooeybunheader">Gooey Bun</h2>
+                <p id="gooeydesc">Our classic flakey Cinnamon Bun smothered in a glaze of your choice. This gooey bun is perfect for you if you have a sweet tooth and don't mind a sugary, drippy mess!</p>
+                <div id="gooeyglazemenu">
+                    <section class="glaze-type">
+                        <label for="glaze">Glaze:</label>
+                        <select name="glaze" id="glaze">
+                          <option value="none">None</option>
+                          <option value="sugar">Sugar</option>
+                          <option value="vanilla">Vanilla</option>
+                          <option value="chocolate">Chocolate</option>
+                        </select>
+                      </section>
+                </div>
+                <div id="gooeynumbermenu">
+                    <section class="quant-type">
+                        <label for="quant">Quantity:</label>
+                        <select name="quant" id="quant" onchange="changedCost()">
+                          <option value="1">1</option>
+                          <option value="3">3</option>
+                          <option value="6">6</option>
+                          <option value="12">12</option>
+                        </select>
+                      </section>
+                </div>
+                <div id="gooeycurrentcost">Cost: $<span id="gooey-bun-cost">3.00</span></div>
+                <div class="activebutton"id="gooeycartbutton">Add to Cart</div>
+                <div id="gooeyspacer"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+            <div class="main">
+                <div class="footer-grid">
+                    <div id="footergrid-a">
+                        Bun Bun Bake Shop
+                    </div>
+                    <div id="footergrid-b">
+                    </div>
+                    <div id="footergrid-c">
+                        Questions about the site? Contact sitemaster at pmyers@andrew.cmu.edu
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
